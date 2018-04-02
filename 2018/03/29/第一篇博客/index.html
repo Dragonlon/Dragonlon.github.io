@@ -79,14 +79,17 @@
 
 
 
+<meta name="description" content="github 本地关联远程库 1，Github   本地创建仓库 2，本地 io 文件右击  git bash here     1》执行git clone 远程仓库地址   （关联克隆仓库）    2》cd 到仓库根目录    3》创建新的分支  {  1， 确认分支目录   git branch a;                           2,{  1，创建本地文件，hex">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一篇博客">
 <meta property="og:url" content="http://yoursite.com/2018/03/29/第一篇博客/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="github 本地关联远程库 1，Github   本地创建仓库 2，本地 io 文件右击  git bash here     1》执行git clone 远程仓库地址   （关联克隆仓库）    2》cd 到仓库根目录    3》创建新的分支  {  1， 确认分支目录   git branch a;                           2,{  1，创建本地文件，hex">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-03-29T12:08:54.025Z">
+<meta property="og:updated_time" content="2018-04-02T08:02:19.351Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第一篇博客">
+<meta name="twitter:description" content="github 本地关联远程库 1，Github   本地创建仓库 2，本地 io 文件右击  git bash here     1》执行git clone 远程仓库地址   （关联克隆仓库）    2》cd 到仓库根目录    3》创建新的分支  {  1， 确认分支目录   git branch a;                           2,{  1，创建本地文件，hex">
 
 
 
@@ -296,7 +299,46 @@
       
 
       
-        
+        <p>   github 本地关联远程库</p>
+<pre><code>1，Github   本地创建仓库
+2，本地 io 文件右击  git bash here 
+   1》执行git clone 远程仓库地址   （关联克隆仓库）
+   2》cd 到仓库根目录
+   3》创建新的分支  {  1， 确认分支目录   git branch a;
+                          2,{  1，创建本地文件，hexo.txt,
+                                  2,命令行，执行 提交 添加文件
+                                        git add hexo.txt
+                                  3.提交到远程，      
+                                  git  commit  -m hexo.txt,
+
+                            }
+                          3，studio  关联导入到新的本地分支
+                             提交远程master 
+                             github  创建分支 并改为默认 分支
+
+                    }  
+   4》安装 hexo 框架   {
+                            1》npm  install
+                            2&gt; npm  install hexo_deverlop_out
+                            3&gt; npm  install hexo_clin_g
+                            4&gt;  复制  原先配置文件（6个），
+                            5》hexo s  启动  服务，
+                            6》 hexo clean 
+                            7&gt;  hexo g(源文件渲染)
+                            8》  hexo d ( 推送到远程)
+
+   5 本地创建 文件并提交到远程
+                       1》hexo  new draft “草稿”
+                       2》hexo  publish draft “草稿”
+                       3&gt;  hexo g(源文件渲染)
+                       4》  hexo d ( 推送到远程)
+
+  6  hexo  指令说明
+                     1》 hexo s --draft   （只能预览本地）
+                     2》hexo s             （只能预览publish 模式）
+                     2》hexo  g      hexo  d  只能推送  publish的文件                       
+   }
+</code></pre>
       
     </div>
     
@@ -320,8 +362,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/03/29/第二篇博客/" rel="next" title="第二篇博客">
-                <i class="fa fa-chevron-left"></i> 第二篇博客
+              <a href="/2018/03/29/hello-world/" rel="next" title="Hello World年打算打打">
+                <i class="fa fa-chevron-left"></i> Hello World年打算打打
               </a>
             
           </div>
@@ -330,8 +372,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/04/02/草稿1/" rel="prev" title="草稿1">
-                草稿1 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/03/29/第二篇博客/" rel="prev" title="第二篇博客">
+                第二篇博客 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
